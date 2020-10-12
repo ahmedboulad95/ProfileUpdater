@@ -1,0 +1,56 @@
+{
+    "classAccess": [
+        "CustomExceptions",
+        "CustomRelatedListController",
+        "CustomRelatedListControllerTest",
+        "DynamicData",
+        "DynamicDataTest",
+        "HVADisplayController",
+        "HVADisplayControllerTest",
+        "HVAListController",
+        "HVAListControllerTest",
+        "LogUtility",
+        "LogUtilityTest",
+        "NewsFeedController",
+        "NewsFeedControllerTest",
+        "NotificationWrapper",
+        "NotificationWrapperTest",
+        "ReportingStatisticTriggerHandler",
+        "ReportingStatisticTriggerHandlerTest",
+        "ReportingUtility",
+        "ReportingUtilityTest"
+    ],
+    "objectAccess": [
+        {
+            "object": "Apex_Log__c",
+            "allowRead": "true",
+            "allowCreate": "true"
+        },
+        {
+            "object": "Notification__c",
+            "allowRead": "true"
+        },
+        {
+            "object": "Notification_User__c",
+            "allowRead": "true"
+        },
+        {
+            "object": "Reporting_Statistic__c",
+            "allowRead": "true",
+            "allowCreate": "true"
+        },
+        {
+            "object": "Trade__c",
+            "allowRead": "true"
+        }
+    ],
+    "excludedProfiles": [
+        "AB Batch - Internal",
+        "AB Delegated Administrator",
+        "AB System Administrator",
+        "AB Backend",
+        "Minimum Access - Salesforce",
+        "System Administrator",
+        "High Volume Customer Portal User"
+    ]
+}
